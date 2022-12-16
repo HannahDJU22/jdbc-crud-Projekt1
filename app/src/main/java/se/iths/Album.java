@@ -1,10 +1,10 @@
 package se.iths;
 
 public class Album {
-    private final int id;
+    private final long id;
     private String title;
 
-    public Album(int id, String title) {
+    public Album(long id, String title) {
         this.id = id;
         this.title = title;
     }
@@ -14,7 +14,7 @@ public class Album {
         return "AlbumId: " + id + ", AlbumTitle: " + title + ".";
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
